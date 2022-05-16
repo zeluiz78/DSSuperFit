@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-red: #f03c42;
+    --color-blue: #222374;
+    --color-white: #FFFFFF;
+    --bg-light-gray: #CCCCCC;
+    --text-black: #000000;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    color: var(--color-white);
+    font-size: 18px
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.superfit-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.superfit-nav-social {
+    padding: 10px;
+}
+
+.superfit-nav-social {
+    align-items: center;
+    display: flex;
+}
+
+.superfit-nav-social p {
+    color: var(--color-white);
+}
+
+.superfit-nav-social img {
+    justify-content: space-between;
+    height: 30px;
+}
+
+#space {
+    background-color: var(--color-blue);
+    padding: 20px;
+    height: 418px;
+}
+
+#space h2 {
+    font-size: 32px;
+}
+
+.card-space-content {
+    color: var(--color-white);
+    height: 44px;
+    font-size: 32px;
+    margin-bottom: 40px
+}
+
+.card-space-description {
+    height: 127px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: var(--bg-light-gray)
+}
+
+.card-space-description h3 {
+    font-size: 20px;
+    padding: 20px;
+    height: 27px;
+}
+
+.card-space-description p {
+    font-size: 14px;
+    padding: 20px;
+    height: 40px;
+}
+
+#modalities {
+    background-color: var(--color-white);
+    padding: 20px;
+    height: 880px;
+}
+
+#modalities h2 {
+    font-size: 32px;
+}
+
+.card-modal-content {
+    color: var(--color-red);
+    font-size: 32;
+    height: 44px;
+    margin-bottom: 40px;
+}
+
+.card-modal-description {
+    background-color: var(--color-blue);
+    height: 106px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card-modal-description h3 {
+    font-size: 20px;
+    color: var(--color-white);
+    padding: 20px;
+    height: 27px;
+}
+
+.card-modal-description p {
+    color: var(--color-white);
+    padding: 20px;
+    font-size: 14px;
+    height: 19px
+}
+
+footer {
+    background-color: var(--text-black);
+    height: 262px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.superfit-footer-content a {
+    color: var(--color-white);
+    font-size: 14px;
+    height: 19px;
+    
+}
+
+.superfit-footer-content img {
+    height: 30px;
+    
+}
+
+.superfit-footer-content {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;   
+}
+
+.superfit-footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.superfit-footer-social img {
+    height: 30px;
+   
+    
+}
+
+.superfit-footer-social a {
+    color: var(--color-white);
+    font-size: 14px;
+    height: 19px;
+    
+}
+
+.superfit-footer-contact {
+    font-size: 14px;
+    height: 21px;
+    color: var(--color-white);
+    padding: 10px;
+}
